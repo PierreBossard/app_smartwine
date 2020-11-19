@@ -1,12 +1,12 @@
+import 'package:flutter/material.dart';
 
 class SignInForm extends StatefulWidget {
   @override
-  SignInFormState createState() {
-    return SignInFormStateState();
-  }
+  _SignInFormState createState() => new _SignInFormState();
+  
 }
 
-class SignInFormState extends State<SignInForm> {
+class _SignInFormState extends State<SignInForm> {
 
   final _formKey = GlobalKey<FormState>();
 
